@@ -1,5 +1,5 @@
 {
-  "name": "jsoncheck",
+  "name": "jsonchecker",
   "version": "0.0.1",
   "description": "A API TEST Framework base on mocha",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TimLiu1/apiTestFramework.git"
+    "url": "git+https://github.com/TimLiu1/jsonchecker.git"
   },
   "keywords": [
     "api",
@@ -19,7 +19,7 @@
   "author": "Tim",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TimLiu1/apiTestFramework/issues"
+    "url": "https://github.com/TimLiu1/jsonchecker/issues"
   },
-  "homepage": "https://github.com/TimLiu1/apiTestFramework#readme"
+  "homepage": "https://github.com/TimLiu1/jsonchecker#readme"
 }
