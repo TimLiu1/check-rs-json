@@ -1,0 +1,25 @@
+{
+  "name": "jsoncheck",
+  "version": "0.0.1",
+  "description": "A API TEST Framework base on mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimLiu1/apiTestFramework.git"
+  },
+  "keywords": [
+    "api",
+    "test",
+    "framework",
+    "mocha"
+  ],
+  "author": "Tim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimLiu1/apiTestFramework/issues"
+  },
+  "homepage": "https://github.com/TimLiu1/apiTestFramework#readme"
+}
