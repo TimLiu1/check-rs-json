@@ -1,0 +1,21 @@
+{
+    "name":"objectCheck",
+    "data":[{
+        "name":"object check",
+        "request":{
+            "method":"get",
+            "url":"?type=two-object",
+            "data":{}
+        },
+        "response":{
+            "code": 200,
+             "info":{
+                "type": "object",
+                "children": {
+                    "name":"jsoncheck",
+                    "age":{"type":"number","value":20}
+                }
+             }
+        }
+    }]
+}

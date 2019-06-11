@@ -1,0 +1,26 @@
+{
+    "name":"number-check",
+    "data":[{
+        "name":"number check",
+        "request":{
+            "method":"get",
+            "url":"?type=one-number",
+            "data":{}
+        },
+        "response":{
+            "code": 200,
+             "age":20
+        }
+    },{
+        "name":"oneSting check type",
+        "request":{
+            "method":"get",
+            "url":"?type=one-number",
+            "data":{}
+        },
+        "response":{
+            "code": 200,
+            "age":{"type":"number","value":20}
+        }
+    }]
+}
