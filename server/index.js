@@ -4,11 +4,6 @@ http.createServer(app).listen(3008, () => {
     console.log('server is listen 3008')
 })
 
-
-
-
-
-
 function app(req, res) {
     let model = { test: "ok" }
     let type = url.parse(req.url, true).query.type;
@@ -44,6 +39,4 @@ function app(req, res) {
 
     res.writeHead(200, { "Content-Type": "application/json" });
     res.end(Buffer.from(JSON.stringify(model)))
-
 }
-
