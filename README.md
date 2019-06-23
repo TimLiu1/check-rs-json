@@ -31,7 +31,7 @@ Check response string object
     name: "jsoncheck"
 }
 const CR = require('check-rs-json')
-let data =  {
+let rules =  {
     "name":"oneSting",
     "data":[{
         "name":"oneSting check value",
@@ -70,7 +70,7 @@ Check response number object
    age: 20
 }
 const CR = require('check-rs-json')
-let data = {
+let rules = {
     "name":"number-check",
     "data":[{
         "name":"number check",
@@ -101,7 +101,7 @@ request.request(data)
 
 Check with two type object and subobject 
 ```js
-//response
+//response 
  {
    code: 200,
    info: { name: "jsoncheck", age: 20 }
@@ -109,7 +109,7 @@ Check with two type object and subobject
 
 
 const CR = require('check-rs-json')
-let data = {
+let rules = {
     "name":"objectCheck",
     "data":[{
         "name":"object check",
@@ -136,6 +136,7 @@ request.request(data)
 
 Check with Array
 ```js
+//response 
 {
    code: 200,
    info: [{ name: "jsoncheck", age: 20 },{ name: "tim", age: 21 }]
@@ -143,7 +144,7 @@ Check with Array
 
 
 const CR = require('check-rs-json')
-let data = {
+let rules = {
     "name":"arrayCheck",
     "data":[{
         "name":"array check",
