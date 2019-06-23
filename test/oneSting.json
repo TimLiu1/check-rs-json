@@ -4,8 +4,7 @@
         "name":"oneSting check value",
         "request":{
             "method":"get",
-            "url":"?type=one-string",
-            "data":{}
+            "url":"?type=one-string"
         },
         "response":{
             "code": 200,
@@ -15,8 +14,7 @@
         "name":"oneSting check type",
         "request":{
             "method":"get",
-            "url":"?type=one-string",
-            "data":{}
+            "url":"?type=one-string"
         },
         "response":{
             "code": 200,

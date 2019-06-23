@@ -4,8 +4,7 @@
         "name":"object check",
         "request":{
             "method":"get",
-            "url":"?type=two-object",
-            "data":{}
+            "url":"?type=two-object"
         },
         "response":{
             "code": 200,

@@ -4,8 +4,7 @@
         "name":"array check",
         "request":{
             "method":"get",
-            "url":"?type=array",
-            "data":{}
+            "url":"?type=array"
         },
         "response":{
             "code": 200,
