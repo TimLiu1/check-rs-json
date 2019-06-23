@@ -1,5 +1,5 @@
 
-## check-rs-json
+## Check-rs-json
 
 ###  BASE ON CONFIG MOCHA TEST PLUGIN 
 
@@ -19,7 +19,7 @@ mocha test/
 
 
 #### Quick Study
-all test demo in the  ```https://github.com/TimLiu1/check-rs-json.git``` 
+all test demo in the  [check-rs-json](https://github.com/TimLiu1/check-rs-json.git) 
 
 
 Check response string object
@@ -171,3 +171,37 @@ let rules = {
 let request = new CR.Request('localhost:3008',{"authentication":"234567cdsc.cdcasd.csdacasd"})
 request.request(data)
 ```
+
+
+
+### POST
+
+```js
+//response 
+{
+    code: 200,
+    name: "jsoncheck"
+}
+const CR = require('check-rs-json')
+let rules =  {
+    "name":"oneSting",
+    "data":[{
+        "name":"oneSting check value",
+        "request":{
+            "method":"post",
+            "url":"?type=one-string",
+            "data":{"user":"tim","password":"1111111"}
+        },
+        "response":{
+            "code": 200,
+             "name":"jsoncheck"
+        }
+    }]
+}
+let request = new CR.Request('localhost:3008',{"authentication":"csadcas.cdcasd.cdac"})
+request.request(data)
+```
+
+
+### Notes
+The type check base on [chai.expect](https://github.com/chaijs/chai)
