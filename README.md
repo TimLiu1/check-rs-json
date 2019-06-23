@@ -10,16 +10,17 @@ Depending on the configurable API testing framework, no coding, just config
 ### Example
 ```
 git clone https://github.com/TimLiu1/check-rs-json.git
-npm i
-cd server.js
+npm install
+cd server.js && node index.js
 mocha test/
-
 ```
 
 ### Example
 
 
-Quick Study
+#### Quick Study
+all test demo in the  ```https://github.com/TimLiu1/check-rs-json.git``` 
+
 
 Check response string object
 
