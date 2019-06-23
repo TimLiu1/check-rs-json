@@ -11,7 +11,7 @@ Depending on the configurable API testing framework, no coding, just config
 ```
 git clone https://github.com/TimLiu1/check-rs-json.git
 npm install
-cd server.js && node index.js
+cd server && node index.js
 mocha test/
 ```
 
@@ -19,8 +19,12 @@ mocha test/
 
 
 #### Quick Study
-all test demo in the  [check-rs-json](https://github.com/TimLiu1/check-rs-json.git) 
 
+all test demo in the  [check-rs-json](https://github.com/TimLiu1/check-rs-json.git) 
+```
+npm install check-rs-json
+
+```
 
 Check response string object
 
