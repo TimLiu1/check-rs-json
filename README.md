@@ -1,13 +1,13 @@
-
 ## Check-rs-json
 
-###  BASE ON CONFIG MOCHA TEST PLUGIN 
+### BASE ON CONFIG MOCHA TEST PLUGIN
 
 ### About
+
 Depending on the configurable API testing framework, no coding, just config
 
-
 ### Example
+
 ```
 git clone https://github.com/TimLiu1/check-rs-json.git
 npm install
@@ -17,10 +17,10 @@ mocha test/
 
 ### Example
 
-
 #### Quick Study
 
-all test demo in the  [check-rs-json](https://github.com/TimLiu1/check-rs-json.git) 
+all test demo in the [check-rs-json](https://github.com/TimLiu1/check-rs-json.git)
+
 ```
 npm install check-rs-json
 
@@ -29,7 +29,7 @@ npm install check-rs-json
 Check response string object
 
 ```js
-//response 
+//response
 {
     code: 200,
     name: "jsoncheck"
@@ -63,12 +63,10 @@ let request = new CR.Request('localhost:3008',{"authentication":"csadcas.cdcasd.
 request.request(data)
 ```
 
-
-
 Check response number object
 
 ```js
-//response 
+//response
 {
    code: 200,
    age: 20
@@ -102,14 +100,14 @@ let request = new CR.Request('localhost:3008',{"authentication":"csadcas.cdcasd.
 request.request(data)
 ```
 
+Check with two type object and subobject
 
-Check with two type object and subobject 
 ```js
-//response 
+//response
  {
    code: 200,
    info: { name: "jsoncheck", age: 20 }
- } 
+ }
 
 
 const CR = require('check-rs-json')
@@ -137,14 +135,14 @@ let request = new CR.Request('localhost:3008',{"authentication":"csadcas.cdcasd.
 request.request(data)
 ```
 
-
 Check with Array
+
 ```js
-//response 
+//response
 {
    code: 200,
    info: [{ name: "jsoncheck", age: 20 },{ name: "tim", age: 21 }]
-} 
+}
 
 
 const CR = require('check-rs-json')
@@ -176,12 +174,10 @@ let request = new CR.Request('localhost:3008',{"authentication":"234567cdsc.cdca
 request.request(data)
 ```
 
-
-
 ### POST
 
 ```js
-//response 
+//response
 {
     code: 200,
     name: "jsoncheck"
@@ -206,6 +202,6 @@ let request = new CR.Request('localhost:3008',{"authentication":"csadcas.cdcasd.
 request.request(data)
 ```
 
-
 ### Notes
+
 The type check base on [chai.expect](https://github.com/chaijs/chai)

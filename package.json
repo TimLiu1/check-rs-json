@@ -17,7 +17,7 @@
     "mocha"
   ],
   "author": "Tim",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TimLiu1/check-rs-json/issues"
   },

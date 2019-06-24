@@ -1,23 +1,28 @@
 {
-    "name":"arrayCheck",
-    "data":[{
-        "name":"array check",
-        "request":{
-            "method":"get",
-            "url":"?type=array"
-        },
-        "response":{
-            "code": 200,
-             "info":{
-                "type": "array",
-                "children": [{
-                    "name":"jsoncheck",
-                    "age":{"type":"number","value":20}
-                },{
-                    "name":"tim",
-                    "age":{"type":"number","value":21}
-                }]
-             }
+  "name": "arrayCheck",
+  "data": [
+    {
+      "name": "array check",
+      "request": {
+        "method": "get",
+        "url": "?type=array"
+      },
+      "response": {
+        "code": 200,
+        "info": {
+          "type": "array",
+          "children": [
+            {
+              "name": "jsoncheck",
+              "age": { "type": "number", "value": 20 }
+            },
+            {
+              "name": "tim",
+              "age": { "type": "number", "value": 21 }
+            }
+          ]
         }
-    }]
+      }
+    }
+  ]
 }
