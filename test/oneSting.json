@@ -1,24 +1,27 @@
 {
-    "name":"oneSting",
-    "data":[{
-        "name":"oneSting check value",
-        "request":{
-            "method":"get",
-            "url":"?type=one-string"
-        },
-        "response":{
-            "code": 200,
-             "name":"jsoncheck"
-        }
-    },{
-        "name":"oneSting check type",
-        "request":{
-            "method":"get",
-            "url":"?type=one-string"
-        },
-        "response":{
-            "code": 200,
-            "name":{"type":"string","value":"jsoncheck"}
-        }
-    }]
+  "name": "oneSting",
+  "data": [
+    {
+      "name": "oneSting check value",
+      "request": {
+        "method": "get",
+        "url": "?type=one-string"
+      },
+      "response": {
+        "code": 200,
+        "name": "jsoncheck"
+      }
+    },
+    {
+      "name": "oneSting check type",
+      "request": {
+        "method": "get",
+        "url": "?type=one-string"
+      },
+      "response": {
+        "code": 200,
+        "name": { "type": "string", "value": "jsoncheck" }
+      }
+    }
+  ]
 }
