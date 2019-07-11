@@ -60,7 +60,7 @@ let rules =  {
     }]
 }
 let request = new CR.Request('localhost:3008',{"authentication":"csadcas.cdcasd.cdac"})
-request.request(data)
+request.request(rules)
 ```
 
 
@@ -99,7 +99,7 @@ let rules = {
     }]
 }
 let request = new CR.Request('localhost:3008',{"authentication":"csadcas.cdcasd.cdac"})
-request.request(data)
+request.request(rules)
 ```
 
 
@@ -134,7 +134,7 @@ let rules = {
     }]
 }
 let request = new CR.Request('localhost:3008',{"authentication":"csadcas.cdcasd.cdac"})
-request.request(data)
+request.request(rules)
 ```
 
 
@@ -173,7 +173,7 @@ let rules = {
 }
 
 let request = new CR.Request('localhost:3008',{"authentication":"234567cdsc.cdcasd.csdacasd"})
-request.request(data)
+request.request(rules)
 ```
 
 
@@ -203,7 +203,7 @@ let rules =  {
     }]
 }
 let request = new CR.Request('localhost:3008',{"authentication":"csadcas.cdcasd.cdac"})
-request.request(data)
+request.request(rules)
 ```
 
 
